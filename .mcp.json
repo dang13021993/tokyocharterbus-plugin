@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tokyocharterbus": {
+      "type": "http",
+      "url": "https://tokyocharterbus.com/mcp"
+    }
+  }
+}

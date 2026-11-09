@@ -1,0 +1,14 @@
+{
+  "name": "tokyocharterbus",
+  "owner": {
+    "name": "Tokyo Charter Bus",
+    "email": "helo@tokyocharterbus.com"
+  },
+  "plugins": [
+    {
+      "name": "tokyocharterbus",
+      "source": "./",
+      "description": "Tokyo Charter Bus: charter coaches, minibuses and private cars with driver in and from Tokyo. Vehicle options, areas served, fare structure and written quote requests."
+    }
+  ]
+}

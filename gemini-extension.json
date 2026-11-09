@@ -1,0 +1,12 @@
+{
+  "name": "tokyocharterbus",
+  "version": "1.0.0",
+  "description": "Tokyo Charter Bus: charter coaches, minibuses and private cars with driver in and from Tokyo. Vehicle options, areas served, fare structure and written quote requests.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "tokyocharterbus": {
+      "httpUrl": "https://tokyocharterbus.com/mcp",
+      "timeout": 30000
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "tokyocharterbus",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tokyo Charter Bus: charter coaches, minibuses and private cars with driver in and from Tokyo. Vehicle options, areas served, fare structure and written quote requests.",
+  "license": "MIT",
+  "homepage": "https://tokyocharterbus.com",
+  "author": "Tokyo Charter Bus <helo@tokyocharterbus.com>",
+  "keywords": [
+    "dsh",
+    "charter-bus",
+    "coach-hire",
+    "tokyo",
+    "japan",
+    "group-travel",
+    "airport-transfer",
+    "mcp"
+  ],
+  "files": [
+    "cordis.patch.yml",
+    "locale/*.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

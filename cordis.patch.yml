@@ -1,0 +1,9 @@
+- insert:
+    - id: tokyocharterbus-mcp
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: tokyocharterbus
+        transport: streamable-http
+        url: https://tokyocharterbus.com/mcp
+        toolCallTimeoutMs: 30000
+        failOnStartupError: true

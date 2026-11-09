@@ -1,0 +1,20 @@
+{
+  "name": "tokyocharterbus",
+  "version": "1.0.0",
+  "description": "Tokyo Charter Bus: charter coaches, minibuses and private cars with driver in and from Tokyo. Vehicle options, areas served, fare structure and written quote requests.",
+  "author": {
+    "name": "Tokyo Charter Bus",
+    "email": "helo@tokyocharterbus.com"
+  },
+  "homepage": "https://tokyocharterbus.com",
+  "license": "MIT",
+  "keywords": [
+    "charter-bus",
+    "coach-hire",
+    "tokyo",
+    "japan",
+    "group-travel",
+    "airport-transfer",
+    "mcp"
+  ]
+}

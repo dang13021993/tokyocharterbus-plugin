@@ -1,0 +1,33 @@
+{
+  "name": "tokyocharterbus",
+  "version": "1.0.0",
+  "description": "Tokyo Charter Bus: charter coaches, minibuses and private cars with driver in and from Tokyo. Vehicle options, areas served, fare structure and written quote requests.",
+  "keywords": [
+    "charter-bus",
+    "coach-hire",
+    "tokyo",
+    "japan",
+    "group-travel",
+    "airport-transfer",
+    "mcp"
+  ],
+  "author": {
+    "name": "Tokyo Charter Bus",
+    "email": "helo@tokyocharterbus.com"
+  },
+  "homepage": "https://tokyocharterbus.com",
+  "license": "MIT",
+  "interface": {
+    "displayName": "Tokyo Charter Bus",
+    "shortDescription": "Charter coaches and minibuses with driver in and from Tokyo",
+    "longDescription": "Connects to the public Tokyo Charter Bus MCP server (https://tokyocharterbus.com/mcp). Lists vehicle options, served areas and the fare structure, and can send a quote request to staff after the user confirms the details and agrees to the privacy policy. A quote request is never a booking; staff reply with a written quotation.",
+    "developerName": "Tokyo Charter Bus",
+    "websiteURL": "https://tokyocharterbus.com"
+  },
+  "skills": "./skills/",
+  "mcpServers": {
+    "tokyocharterbus": {
+      "url": "https://tokyocharterbus.com/mcp"
+    }
+  }
+}
