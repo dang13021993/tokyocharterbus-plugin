@@ -16,5 +16,7 @@
     "group-travel",
     "airport-transfer",
     "mcp"
-  ]
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://tokyocharterbus.com/en/privacy/"
 }
